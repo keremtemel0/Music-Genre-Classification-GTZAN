@@ -30,7 +30,7 @@ The initial testing phase across 10 genres yielded the following results:
 - `documents/`: Technical notes and implementation details.
 
 > [!IMPORTANT]  
-> **Note on Audio Files:** Due to GitHub's file size limitations, raw audio files (.au/.mp3) are not included. The models run directly using the pre-processed features located in the `data/features/` folder.
+> **Audio File Notes:** Because of the limits to the size of audio files that GitHub can host, these raw files have not been provided. The models operate on pre-processed features from the `data/features/` folder.
 
 ---
 
