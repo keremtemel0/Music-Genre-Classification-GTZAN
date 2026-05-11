@@ -1,0 +1,30 @@
+# Data Folder Structure
+# Verify that the extracted zip file is in this format to avoid errors
+
+data:
+  features:
+    fma:
+    - fma_3sec_features.csv
+    - fma_features.csv
+    gtzan:
+    - gtzan_3sec_features.csv
+    - gtzan_features.csv
+
+  fma_small: #fma_small dataset folder
+    000:
+    - .mp3 files 
+    001:
+    - .mp3 files 
+    #goes on like that
+    
+  gtzan: #gtzan dataset folder
+    genres:
+      blues:
+      - .au files
+      classical:
+      - .au files 
+      country: 
+      - .au files
+      #same for other genres
+  #other .csv files: genres.csv, tracks.csv
+  
